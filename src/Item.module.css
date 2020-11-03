@@ -1,0 +1,45 @@
+h2 {
+  display: inline;
+  line-height: 2;
+}
+
+.header {
+  padding: 0.5em 1em 0.375em;
+  border-bottom: 0.125em solid #80c0df;
+}
+
+.body {
+  padding: 0.5em 1em;
+}
+
+.goods-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.goods-list li {
+  white-space: nowrap;
+  line-height: 1.5;
+  margin: 0.25em;
+  padding: 0 0.5em;
+  display: inline-block;
+  border: 1px solid #c0c0c0;
+  border-radius: 0.5em;
+}
+
+.active {
+  color: #df0000;
+}
+
+.inactive {
+  color: #dfdfdf;
+}
+
+.favorite-button {
+  font-size: 100%;
+  font-family: inherit;
+  border: 0;
+  padding: 0;
+  background-color: inherit;
+}
